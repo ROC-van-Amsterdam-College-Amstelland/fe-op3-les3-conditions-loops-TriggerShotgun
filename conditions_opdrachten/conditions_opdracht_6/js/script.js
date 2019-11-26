@@ -10,6 +10,8 @@ function check() {
         document.getElementById("tekst").innerHTML = myNumber1 - myNumber2;
     } else if (myOperator == "*"){
         document.getElementById("tekst").innerHTML = myNumber1 * myNumber2;
+    } else if (myOperator == "/"){
+        document.getElementById("tekst").innerHTML = myNumber1 / myNumber2;
     }
 
 }
